@@ -1,0 +1,3 @@
+
+Apr 06, 2023 17:12:55.65 NEW SESSION
+Apr 06, 2023 17:12:55.65 [Parent 23164, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777

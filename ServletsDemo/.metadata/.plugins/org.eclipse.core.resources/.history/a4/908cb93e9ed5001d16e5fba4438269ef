@@ -1,0 +1,15 @@
+package com.priyaServlet;
+
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class AddServlet3SendRedirectCalled extends HttpServlet{
+	public void doGet(HttpServletRequest req, HttpServletResponse res) {
+		
+		int z = (int) req.getParameter("z");
+		System.out.println("Called" + z);
+		
+	}
+
+}
