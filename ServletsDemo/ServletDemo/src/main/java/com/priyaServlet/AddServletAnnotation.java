@@ -30,5 +30,5 @@ public class AddServletAnnotation extends HttpServlet {
 	}
 }
 
-//add1 url using in Demo1.html file.
+//add1 url using in Demo1.html file.	
 
