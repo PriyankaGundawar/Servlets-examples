@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
 
-<servlet>
+<!--  <servlet>
 <servlet-name>Servlet1</servlet-name>
 <servlet-class>com.priyaServlet.AddServlet</servlet-class>
 </servlet>
@@ -56,5 +56,68 @@
 <servlet-name>Servlet3call</servlet-name>
 <url-pattern>/sr1</url-pattern>
 </servlet-mapping>
+
+<servlet>
+<servlet-name>Servlet4</servlet-name>
+<servlet-class>com.priyaServlet.AddServlet4HttpSession</servlet-class>
+</servlet>
+
+
+<servlet-mapping>
+<servlet-name>Servlet4</servlet-name>
+<url-pattern>/additionHttp</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>Servlet4callHttp</servlet-name>
+<servlet-class>com.priyaServlet.AddServlet4HttpSessionCalled</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>Servlet4callHttp</servlet-name>
+<url-pattern>/HttpS</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>Servlet5</servlet-name>
+<servlet-class>com.priyaServlet.AddServlet5Cookie</servlet-class>
+</servlet>
+
+
+<servlet-mapping>
+<servlet-name>Servlet5</servlet-name>
+<url-pattern>/additionCookie</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>Servlet5callCook</servlet-name>
+<servlet-class>com.priyaServlet.AddServlet5CookieCalled</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>Servlet5callCook</servlet-name>
+<url-pattern>/Cook</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>ServletContext</servlet-name>
+<servlet-class>com.priyaServlet.ServletContextAndConfig</servlet-class>
+<init-param>
+<param-name>name</param-name>
+<param-value>Ram</param-value>
+</init-param>
+
+</servlet>
+
+<servlet-mapping>
+<servlet-name>ServletContext</servlet-name>
+<url-pattern>/Home</url-pattern>
+</servlet-mapping>
+
+<context-param>
+<param-name>name</param-name>
+<param-value>Riya</param-value>
+
+</context-param> -->
 
 </web-app>
